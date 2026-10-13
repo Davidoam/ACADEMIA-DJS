@@ -1,4 +1,4 @@
-const API_ENDPOINT = "";
+const API_ENDPOINT = "https://4gp706cgwg.execute-api.us-east-1.amazonaws.com/leads";
 
 const form = document.querySelector("#lead-form");
 const statusMessage = document.querySelector("#form-status");
