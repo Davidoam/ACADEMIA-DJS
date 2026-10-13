@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onda Cero DJ Academy</title>
+  <meta name="description" content="Academia de DJs con cursos de mezcla, produccion musical y sesiones en vivo.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="#inicio">Onda Cero DJ Academy</a>
+      <div class="nav-links">
+        <a href="#cursos">Cursos</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#contacto">Inscripcion</a>
+      </div>
+    </nav>
+
+    <section id="inicio" class="hero-content">
+      <p class="eyebrow">Academia de DJs</p>
+      <h1>Aprende a mezclar, producir y dominar la cabina.</h1>
+      <p class="lead">Cursos practicos para empezar desde cero o pulir tu sonido con sesiones reales, equipo profesional y mentoria creativa.</p>
+      <a class="button" href="#contacto">Reservar plaza</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="cursos" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Formacion</p>
+        <h2>Cursos pensados para pinchar de verdad</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">Nivel inicial</span>
+          <h3>DJ Starter</h3>
+          <p>Beatmatching, estructura musical, transiciones limpias y preparacion de playlists.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Cabina</span>
+          <h3>Club Performance</h3>
+          <p>Lectura de pista, energia del set, loops, efectos y mezcla con control profesional.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Produccion</span>
+          <h3>Sound Lab</h3>
+          <p>Introduccion a DAW, samples, ritmos, bajos y creacion de edits propios.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="metodo" class="split">
+      <div>
+        <p class="eyebrow">Metodo</p>
+        <h2>Practica guiada, feedback claro y sesiones grabadas.</h2>
+        <p>Cada alumno trabaja con controladoras, mezcladores y monitores de cabina. Las clases combinan tecnica, cultura musical y ejercicios medibles para que cada semana suene mejor que la anterior.</p>
+      </div>
+      <ul class="checklist">
+        <li>Grupos reducidos</li>
+        <li>Equipo profesional incluido</li>
+        <li>Proyecto final con set grabado</li>
+        <li>Orientacion para crear tu marca artistica</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="signup">
+      <div class="signup-copy">
+        <p class="eyebrow">Inscripcion</p>
+        <h2>Recibe informacion del proximo grupo.</h2>
+        <p>Deja tus datos y te avisaremos con fechas, horarios y plazas disponibles.</p>
+      </div>
+
+      <form id="lead-form" class="form">
+        <label for="name">Nombre</label>
+        <input id="name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Tu nombre">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required placeholder="tu@email.com">
+
+        <button type="submit">Enviar solicitud</button>
+        <p id="form-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Onda Cero DJ Academy - Proyecto Serverless AWS</p>
+    <a href="guia-pasos-aws-serverless.html">Ver guia de pasos AWS</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
